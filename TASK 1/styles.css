@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#about-us {
+    background-image: url('download.jpg');
+    background-size: cover;  
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: larger;
+}
+
+#policy {
+    background-image: url('background.jpg');
+    background-size: cover;  height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: larger;
+}
+
+#contact {
+    background-image: url('contact.jpg');
+    background-size:cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#contact ul li a:hover {
+    color:red; 
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
